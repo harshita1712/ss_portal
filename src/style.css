@@ -25,18 +25,23 @@ background: linear-gradient(0deg, rgba(31,127,166,1) 0%, rgba(4,20,73,1) 100%);
   position: sticky;
   top: 0;
   z-index: 999;
-  transition: background-color 0.3s ease;
+  transition: box-shadow 0.3s ease;
 }
 
 /* Style for the white background on scroll */
-#navbar.bg-white {
-  background-color: #ffffff;
-}
 
+
+#navbar.shadow-md {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.151);
+}
 
 .hero-header {
     margin-bottom: 6rem;
     padding: 18rem 0;
  
 }
+
+
+
+
 

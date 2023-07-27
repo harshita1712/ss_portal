@@ -6,10 +6,11 @@
     function handleScroll() {
         if (window.scrollY > 100) {
             // Add a class to change the background color when scrolling
-            navbar.classList.add('bg-white');
+          
+            navbar.classList.add('shadow-md');
         } else {
             // Remove the class when the user scrolls back to the top
-            navbar.classList.remove('bg-white');
+            navbar.classList.remove('shadow-md');
         }
     }
 
